@@ -1,13 +1,3 @@
-S=ACB
-S=CbB
-S=Ba
-A=da
-A=BC
-B=g
-B=#
-C=h
-C=#
------------------------------
 S=ABCDE
 A=a
 A=#
@@ -18,6 +8,9 @@ D=d
 D=#
 E=e
 E=#
+
+Accepted String = abcde$
+Accepted String = bce$
 -------------------------------
 S=Bb
 S=Cd
@@ -25,6 +18,9 @@ B=aB
 B=#
 C=cC
 C=#
+
+Accepted String = aaaaab$
+Accepted String = cccccd$
 -------------------------------
 E=TR
 R=+TR
@@ -34,12 +30,10 @@ Y=*FY
 Y=#
 F=(E)
 F=i
--------------------------------
-S=aABb
-A=c
-A=#
-B=d
-B=#
+
+Accepted String = i+i*i$
+Accepted String = (i+i)*i$
+Accepted String = i*(i+i)$
 -------------------------------
 S=aBDh
 B=cC
@@ -50,3 +44,6 @@ E=g
 E=#
 F=f
 F=#
+
+Accepted String = acbbh$
+Accepted String = acgfh$
