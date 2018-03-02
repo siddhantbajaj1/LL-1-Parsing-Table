@@ -4,9 +4,9 @@ The test cases have been provided above for the user's reference(make sure you f
 
 Following are some of the assumptions I have made :-
 
-1) Epsilon is represented by '#'
-2) Productions are of the form A=B , where 'A' is a single Non-Terminal and 'B' can be any combination of Terminals and Non- Terminals
-3) The first production rule is the start symbol.
+1) Epsilon is represented by '#'.
+2) Productions are of the form A=B , where 'A' is a single Non-Terminal and 'B' can be any combination of Terminals and Non- Terminals.
+3) The L.H.S. of the first production rule is the start symbol.
 4) Grammer is not left recursive.
 5) Each production of a non terminal is entered on a different line.
 6) Only Upper Case letters are Non-Terminals and everything else is a terminal.
